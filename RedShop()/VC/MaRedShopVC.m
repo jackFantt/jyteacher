@@ -34,6 +34,8 @@
 @property (nonatomic,copy) NSString * livestartTime;
 @property (nonatomic,strong) UIButton * openButton;
 
+@property (nonatomic,assign) NSInteger leavetimeout;
+
 @end
 
 @implementation MaRedShopVC
@@ -45,6 +47,7 @@
     self.roomName = @"";
     self.liveID = @"";
     self.livestartTime = @"";
+    self.leavetimeout = 0;
     [self createUI];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginSuccess) name:JYLoginSuccess object:nil];
@@ -103,7 +106,7 @@
         roomName = [NSString stringWithFormat:@"房间号：%@",[UserInfo shareInstance].romeName];
     }
     
-    self.romeNumber = [UILabel wh_labelWithText:@"房间号：" textFont:14 textColor:RGBA(218, 171, 119, 1.0) frame:CGRectMake(self.touIcon.right+13, self.userName.bottom+5, 150, 20)];
+    self.romeNumber = [UILabel wh_labelWithText:roomName textFont:14 textColor:RGBA(218, 171, 119, 1.0) frame:CGRectMake(self.touIcon.right+13, self.userName.bottom+5, 250, 20)];
     self.romeNumber.textAlignment = NSTextAlignmentLeft;
     self.romeNumber.font = [UIFont mediumWithSize:14];
     [bgImage addSubview:self.romeNumber];
@@ -132,8 +135,8 @@
     roowImage.image = [UIImage imageNamed:@"金色箭头"];
     [centerTopView addSubview:roowImage];
     
-    UIView * lineView = [[UIView alloc]initWithFrame:CGRectMake(MARGIN_OX, [centerTopView width]-MARGIN_OX*2, [centerTopView height]-1, 1)];
-       lineView.backgroundColor = RGBA(230, 230, 230, 1.0);
+    UIView * lineView = [[UIView alloc]initWithFrame:CGRectMake(MARGIN_OX,[centerTopView height]-1, [centerTopView width]-MARGIN_OX*2, 1)];
+       lineView.backgroundColor = RGBA(153, 153, 153, 1.0);
        [centerTopView addSubview:lineView];
     
     
@@ -179,6 +182,13 @@
         self.openButton.userInteractionEnabled = NO;
         return;
     }
+    
+//    if (self.leavetimeout > 0) {
+//        [[AXProgressHUDHelper getInstance]showTextWithStatus:@"直播时间未到，请等待" onView:self.view];
+//        return;
+//    }
+    
+    
     self.openButton.userInteractionEnabled = YES;
     JYTuiLiuVC * tuiliuVC = [[JYTuiLiuVC alloc]init];
     tuiliuVC.liveplayID = self.liveID;
@@ -216,7 +226,6 @@
        // 当前时间的时间戳
     NSString *nowStr = [[CommonTool manager] getCurrentTimeyyyymmdd];
    
-//    [self openLiveRoomInOneHour:deadlineStr];
        // 计算时间差值
     NSInteger secondsCountDown = [[CommonTool manager] getDateDifferenceWithNowDateStr:nowStr deadlineStr:deadlineStr];
     
@@ -329,8 +338,13 @@
                         [weakSelf.openButton setTitleColor:RGBA(214, 171, 126, 1.0) forState:UIControlStateNormal];
                         weakSelf.openButton.userInteractionEnabled = YES;
                         
+//                        weakSelf.openButton.backgroundColor = RGBA(39, 37, 38, 1.0);
+//                        [weakSelf.openButton setTitleColor:RGBA(153, 153, 153, 1.0) forState:UIControlStateNormal];
+//                        weakSelf.openButton.userInteractionEnabled = NO;
+                        
                     });
                     timeout--; // 递减 倒计时-1(总时间以秒来计算)
+                    self.leavetimeout = timeout;
                 }
             });
             dispatch_resume(_timer);

@@ -166,12 +166,12 @@ static NSString * const reuseInderfer = @"JYMyselfCell";
            [_headerView addSubview:loginBtn];
            self.userBtn = loginBtn;
         
-        self.userName = [UILabel wh_labelWithText:@"尼古拉斯赵四" textFont:18 textColor:RGBA(218, 171, 119, 1.0) frame:CGRectMake(self.touIcon.right+13, self.touIcon.mj_y+8, 150, 20)];
+        self.userName = [UILabel wh_labelWithText:@"暂无" textFont:18 textColor:RGBA(218, 171, 119, 1.0) frame:CGRectMake(self.touIcon.right+13, self.touIcon.mj_y+8, 150, 20)];
         self.userName.textAlignment = NSTextAlignmentLeft;
         self.userName.font = [UIFont BoldWithSize:18];
         [_headerView addSubview:self.userName];
         
-        self.phoneLabel = [UILabel wh_labelWithText:@"18297955227" textFont:14 textColor:RGBA(218, 171, 119, 1.0) frame:CGRectMake(self.touIcon.right+13, self.userName.bottom+5, 150, 20)];
+        self.phoneLabel = [UILabel wh_labelWithText:@"182****5227" textFont:14 textColor:RGBA(218, 171, 119, 1.0) frame:CGRectMake(self.touIcon.right+13, self.userName.bottom+5, 150, 20)];
         self.phoneLabel.textAlignment = NSTextAlignmentLeft;
         self.phoneLabel.font = [UIFont mediumWithSize:14];
         [_headerView addSubview:self.phoneLabel];

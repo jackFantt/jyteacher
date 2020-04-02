@@ -63,7 +63,7 @@
           self.userStatus = [[NSUserDefaults standardUserDefaults] objectForKey:kUserEdu_UerStatus];
       }
     if ([[NSUserDefaults standardUserDefaults] objectForKey:kUserRoomName] != nil) {
-             self.userStatus = [[NSUserDefaults standardUserDefaults] objectForKey:kUserRoomName];
+             self.romeName = [[NSUserDefaults standardUserDefaults] objectForKey:kUserRoomName];
          }
     if ([[NSUserDefaults standardUserDefaults] objectForKey:kUDUserToken] != nil) {
         self.userToken = [[NSUserDefaults standardUserDefaults] objectForKey:kUDUserToken];
