@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-JYEducation/Pods-JYEducation-resources.sh
+${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle
+${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.plist
+${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_ExpressionImage.plist
+${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle
+${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle/gifexpression.bundle
+${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle

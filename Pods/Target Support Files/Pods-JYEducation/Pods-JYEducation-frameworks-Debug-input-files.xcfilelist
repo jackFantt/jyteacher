@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-JYEducation/Pods-JYEducation-frameworks.sh
+${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/PLMediaStreamingKit.framework
+${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/HappyDNS.framework
+${PODS_ROOT}/PLPlayerKit/Pod/Library/PLPlayerKit.framework

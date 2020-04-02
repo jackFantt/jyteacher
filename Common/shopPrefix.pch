@@ -1,0 +1,18 @@
+//
+//  shopPrefix.pch
+//  JYEducation
+//
+//  Created by wofuli on 2019/11/5.
+//  Copyright © 2019 smart. All rights reserved.
+//
+
+#ifndef shopPrefix_pch
+#define shopPrefix_pch
+
+#import "ViewHeader.h"
+#import "ProjectHeader.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* shopPrefix_pch */
