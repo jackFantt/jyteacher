@@ -125,6 +125,8 @@
 		BBB0430D242CC77100D68CFF /* JYHeaderSectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB0430C242CC77100D68CFF /* JYHeaderSectionVC.m */; };
 		BBB04310242CCF1800D68CFF /* JYClassPayMentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB0430F242CCF1800D68CFF /* JYClassPayMentVC.m */; };
 		BBB04313242CD43A00D68CFF /* JYClassPayMentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB04312242CD43A00D68CFF /* JYClassPayMentCell.m */; };
+		BBC90C752436DF4B001249C5 /* JYNewlanchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC90C732436DF4B001249C5 /* JYNewlanchImage@3x.png */; };
+		BBC90C762436DF4B001249C5 /* JYNewlanchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC90C742436DF4B001249C5 /* JYNewlanchImage@2x.png */; };
 		BBD3FC75242DAB79005CAAC1 /* JYCourseDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FC74242DAB79005CAAC1 /* JYCourseDetailsVC.m */; };
 		BBD3FC78242DB622005CAAC1 /* JYCoureDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FC77242DB622005CAAC1 /* JYCoureDetailVC.m */; };
 		BBD3FC7B242DB64D005CAAC1 /* JYCourseCatalogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FC7A242DB64D005CAAC1 /* JYCourseCatalogVC.m */; };
@@ -244,8 +246,6 @@
 		FC7ACF242399F1E50067CC4F /* ZWMSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7ACF212399F1E50067CC4F /* ZWMSegmentController.m */; };
 		FC7ACF252399F1E50067CC4F /* ZWMSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7ACF222399F1E50067CC4F /* ZWMSegmentView.m */; };
 		FC7ACF262399F1E50067CC4F /* UIView+ZWMBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7ACF232399F1E50067CC4F /* UIView+ZWMBadge.m */; };
-		FCA15A1023B0A53D0008A284 /* JYNewlanchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA15A0E23B0A53D0008A284 /* JYNewlanchImage@2x.png */; };
-		FCA15A1123B0A53D0008A284 /* JYNewlanchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA15A0F23B0A53D0008A284 /* JYNewlanchImage@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -489,6 +489,8 @@
 		BBB0430F242CCF1800D68CFF /* JYClassPayMentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYClassPayMentVC.m; sourceTree = "<group>"; };
 		BBB04311242CD43A00D68CFF /* JYClassPayMentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYClassPayMentCell.h; sourceTree = "<group>"; };
 		BBB04312242CD43A00D68CFF /* JYClassPayMentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYClassPayMentCell.m; sourceTree = "<group>"; };
+		BBC90C732436DF4B001249C5 /* JYNewlanchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "JYNewlanchImage@3x.png"; path = "../../../../精英项目/2020-04-02切图（李星宇）/15启动页/JYNewlanchImage@3x.png"; sourceTree = "<group>"; };
+		BBC90C742436DF4B001249C5 /* JYNewlanchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "JYNewlanchImage@2x.png"; path = "../../../../精英项目/2020-04-02切图（李星宇）/15启动页/JYNewlanchImage@2x.png"; sourceTree = "<group>"; };
 		BBD3FC73242DAB79005CAAC1 /* JYCourseDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCourseDetailsVC.h; sourceTree = "<group>"; };
 		BBD3FC74242DAB79005CAAC1 /* JYCourseDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCourseDetailsVC.m; sourceTree = "<group>"; };
 		BBD3FC76242DB622005CAAC1 /* JYCoureDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCoureDetailVC.h; sourceTree = "<group>"; };
@@ -710,8 +712,6 @@
 		FC7ACF212399F1E50067CC4F /* ZWMSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentController.m; sourceTree = "<group>"; };
 		FC7ACF222399F1E50067CC4F /* ZWMSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentView.m; sourceTree = "<group>"; };
 		FC7ACF232399F1E50067CC4F /* UIView+ZWMBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWMBadge.m"; sourceTree = "<group>"; };
-		FCA15A0E23B0A53D0008A284 /* JYNewlanchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JYNewlanchImage@2x.png"; sourceTree = "<group>"; };
-		FCA15A0F23B0A53D0008A284 /* JYNewlanchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JYNewlanchImage@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1726,8 +1726,8 @@
 		FC43A4202391147100D0C44F /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				FCA15A0E23B0A53D0008A284 /* JYNewlanchImage@2x.png */,
-				FCA15A0F23B0A53D0008A284 /* JYNewlanchImage@3x.png */,
+				BBC90C742436DF4B001249C5 /* JYNewlanchImage@2x.png */,
+				BBC90C732436DF4B001249C5 /* JYNewlanchImage@3x.png */,
 				FC43A4212391147100D0C44F /* scan_circle@2x.png */,
 				FC43A4222391147100D0C44F /* scan_line@2x.png */,
 				FC43A4232391147100D0C44F /* scanSuccess.wav */,
@@ -1814,7 +1814,6 @@
 				FC23D17D237BE9B2000AFE2E /* ClassifyTitles.plist in Resources */,
 				FC43A3DE238F5E6500D0C44F /* TZImagePickerController.bundle in Resources */,
 				FC23D17E237BE9B2000AFE2E /* DetailRecommend.plist in Resources */,
-				FCA15A1123B0A53D0008A284 /* JYNewlanchImage@3x.png in Resources */,
 				BB4B3CB2242617370089E62C /* README.txt in Resources */,
 				FC23D181237BE9B2000AFE2E /* ClassiftyGoods01.plist in Resources */,
 				697E74E5237299790058F4A5 /* success.png in Resources */,
@@ -1822,7 +1821,6 @@
 				697E74E1237299790058F4A5 /* error@2x.png in Resources */,
 				FC23D0DD2379485A000AFE2E /* IDMPBLocalizations.bundle in Resources */,
 				FC23D180237BE9B2000AFE2E /* ClasiftyGoods.plist in Resources */,
-				FCA15A1023B0A53D0008A284 /* JYNewlanchImage@2x.png in Resources */,
 				FC23D184237BE9B2000AFE2E /* ShopItem.plist in Resources */,
 				FC23D17F237BE9B2000AFE2E /* ClassiftyGoods03.plist in Resources */,
 				FC23D158237A9B2A000AFE2E /* restrictedshine.tiff in Resources */,
@@ -1834,11 +1832,13 @@
 				697E74E2237299790058F4A5 /* success@2x.png in Resources */,
 				FC23D159237A9B2A000AFE2E /* mask.jpg in Resources */,
 				69FAD4D423710CCF003FCA02 /* Assets.xcassets in Resources */,
+				BBC90C752436DF4B001249C5 /* JYNewlanchImage@3x.png in Resources */,
 				FC43A4252391147100D0C44F /* scan_line@2x.png in Resources */,
 				FC43A4242391147100D0C44F /* scan_circle@2x.png in Resources */,
 				69FAD4D223710CBB003FCA02 /* Main.storyboard in Resources */,
 				697E74E3237299790058F4A5 /* info@2x.png in Resources */,
 				697E74E4237299790058F4A5 /* error.png in Resources */,
+				BBC90C762436DF4B001249C5 /* JYNewlanchImage@2x.png in Resources */,
 				697E74E0237299790058F4A5 /* info.png in Resources */,
 				FC23D157237A9B2A000AFE2E /* line.png in Resources */,
 			);

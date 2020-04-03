@@ -1,62 +1,62 @@
 {
   "images" : [
     {
-      "size" : "20x20",
+      "filename" : "iphone-Notification-ios7-13-20pt-2x(40-40).png",
       "idiom" : "iphone",
-      "filename" : "LOGO 40×40.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "20x20"
     },
     {
-      "size" : "20x20",
+      "filename" : "iphone-Notification-ios7-13-20pt-3x(60-60).png",
       "idiom" : "iphone",
-      "filename" : "LOGO 60×60.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "20x20"
     },
     {
-      "size" : "29x29",
+      "filename" : "iphone-Settings--ios7-13-29pt-2x(58-58).png",
       "idiom" : "iphone",
-      "filename" : "LOGO 58×58.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "29x29"
     },
     {
-      "size" : "29x29",
+      "filename" : "iphone-Settings--ios7-13-29pt-3x(87-87).png",
       "idiom" : "iphone",
-      "filename" : "LOGO 87×87.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "29x29"
     },
     {
-      "size" : "40x40",
+      "filename" : "iphone-spotlight--ios7-13-40pt-2x(80-80).png",
       "idiom" : "iphone",
-      "filename" : "LOGO 80×80.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "40x40"
     },
     {
-      "size" : "40x40",
+      "filename" : "iphone-spotlight--ios7-13-40pt-3x(120-120).png",
       "idiom" : "iphone",
-      "filename" : "LOGO 120×120.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "40x40"
     },
     {
-      "size" : "60x60",
+      "filename" : "iphone-App--ios7-13-40pt-2x(120-120)-1.png",
       "idiom" : "iphone",
-      "filename" : "LOGO 120×120-1.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "60x60"
     },
     {
-      "size" : "60x60",
+      "filename" : "iphone-App-ios7-13-40pt-3x(180-180).png",
       "idiom" : "iphone",
-      "filename" : "LOGO 180×180.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "60x60"
     },
     {
-      "size" : "1024x1024",
+      "filename" : "-App-Store-ios-1x(1024-1024).png",
       "idiom" : "ios-marketing",
-      "filename" : "LOGO 1024×1024.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "1024x1024"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
